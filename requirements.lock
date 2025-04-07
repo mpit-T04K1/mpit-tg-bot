@@ -18,6 +18,8 @@ idna==3.10
     # via requests
 pytelegrambotapi==4.26.0
     # via mpit-tg-bot
+python-dotenv==1.1.0
+    # via mpit-tg-bot
 requests==2.32.3
     # via pytelegrambotapi
 urllib3==2.3.0
