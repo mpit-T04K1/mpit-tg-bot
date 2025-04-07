@@ -7,4 +7,4 @@
     rye sync 
     python main.py
     2. через pip 
-    pip install -r .\requirements.lock
+    pip install -r .\requirements.txt
