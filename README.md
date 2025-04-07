@@ -6,5 +6,5 @@
     1. через rye
     rye sync 
     python main.py
-    2. через pip 
+    2. через pip (может быть устаревшим)
     pip install -r .\requirements.txt
