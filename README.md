@@ -8,3 +8,5 @@
     python main.py
     2. через pip (может быть устаревшим)
     pip install -r .\requirements.txt
+
+record to check CI/CD on submodules
