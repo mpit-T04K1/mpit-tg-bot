@@ -6,9 +6,9 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
-    TOKEN: str
+    BOT_TOKEN: str
     REGISTRATION_URL: str
-    DATABASE_PATH: str
+    DATABASE_PATH: str = "database/database.db"
 
     @cached_property
     def sqlite_url(self):
